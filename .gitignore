@@ -46,3 +46,10 @@ Thumbs.db
 
 .nx/cache
 .nx/workspace-data
+
+# Korean fonts: local Malgun Gothic (MS-licensed) — never redistribute.
+# fonts.json falls back to bundled NotoSansKR.ttf (OFL) when these are absent.
+packages/cad-viewer-example/public/cad-data/fonts/MALGUN.TTF
+packages/cad-viewer-example/public/cad-data/fonts/MALGUNBD.TTF
+packages/cad-simple-viewer-cli/runner/public/cad-data/fonts/MALGUN.TTF
+packages/cad-simple-viewer-cli/runner/public/cad-data/fonts/MALGUNBD.TTF

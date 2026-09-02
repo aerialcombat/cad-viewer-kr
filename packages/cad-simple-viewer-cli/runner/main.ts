@@ -197,7 +197,9 @@ async function ensureViewer(): Promise<void> {
     width: 1280,
     height: 720,
     autoResize: false,
-    baseUrl: 'https://cdn.jsdelivr.net/gh/mlightcad/cad-data@main/',
+    // Serve fonts/templates locally (see runner/public/cad-data/) so Korean
+    // text renders without the upstream CDN
+    baseUrl: '/cad-data/',
     useMainThreadDraw: true,
     webworkerFileUrls: {
       dwgParser: dwgParserUrl,

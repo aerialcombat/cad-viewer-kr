@@ -1,0 +1,39 @@
+[
+ {
+  "file": "NotoSansKR.ttf",
+  "type": "mesh",
+  "name": [
+   "notosanskr",
+   "noto sans kr",
+   "arial",
+   "txt",
+   "simplex",
+   "romans",
+   "gbenor",
+   "gbeitc",
+   "amgdt",
+   "hztxt",
+   "gbcbig",
+   "simsun",
+   "chineset",
+   "bold"
+  ]
+ },
+ {
+  "file": "MALGUN.TTF",
+  "name": [
+   "malgun",
+   "malgun gothic",
+   "맑은고딕"
+  ],
+  "type": "mesh"
+ },
+ {
+  "file": "MALGUNBD.TTF",
+  "name": [
+   "malgunbd",
+   "malgun gothic bold"
+  ],
+  "type": "mesh"
+ }
+]
