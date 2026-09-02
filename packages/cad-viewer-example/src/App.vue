@@ -82,7 +82,9 @@ const initialize = () => {
 //   { persist: false }
 // )
 
-const BASE_URL = 'https://cdn.jsdelivr.net/gh/mlightcad/cad-data@main/'
+// Serve fonts/templates locally (public/cad-data/) so Korean text renders
+// without the upstream CDN — see public/cad-data/fonts/fonts.json
+const BASE_URL = '/cad-data/'
 
 const showViewer = computed(
   () => store.selectedFile != null || store.isNewDrawing
